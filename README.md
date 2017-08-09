@@ -5,9 +5,11 @@ License: Public Domain
 
 Supported architectures: Linux (x64), Windows (x64, UWP)
 
+<img width="800px" src="https://i.imgur.com/8LUIWL0.jpg" />
+
 Usage:
 
-```
+```C
 #define USE_TINYPROFILER
 #include "tinyprofiler.h"
 
@@ -21,5 +23,3 @@ int main() {
 ```
 
 Redirect console output to a `.json` file and open it in `about:tracing` tab of your web browser.
-
-<img width="800px" src="https://i.imgur.com/8LUIWL0.jpg" />
